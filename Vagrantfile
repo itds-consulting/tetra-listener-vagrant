@@ -48,7 +48,7 @@ Vagrant.configure(2) do |config|
         python-cheetah python-lxml doxygen libxi-dev python-sip \
         libqt4-opengl-dev libqwt-dev libfontconfig1-dev libxrender-dev \
         python-sip python-sip-dev python-gtk2 python-sphinx python-numpy python-cheetah \
-	python-comedilib libcomedi-dev libzmq-dev automake
+	python-comedilib libcomedi-dev libzmq-dev automake gcc-multilib g++-multilib
 
     sudo apt-get install --no-install-recommends -y libuhd-dev
 
