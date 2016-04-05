@@ -1,6 +1,6 @@
 # TETRA Listener - Vagrant template
 
-This repository provides setup script to get [tetra-listener] up and running using Vagrant virtual environment manager
+This repository provides setup script to get [tetra-listener](https://github.com/itds-consulting/tetra-listener) up and running using Vagrant virtual environment manager
 
 ## Install Dependencies
 

@@ -1,5 +1,5 @@
 Vagrant.configure(2) do |config|
-  config.vm.box = "chef/ubuntu-14.04"
+  config.vm.box = "bento/ubuntu-14.04"
   config.vm.box_check_update = false
 
   config.vm.provider "virtualbox" do |vb|
@@ -48,7 +48,7 @@ Vagrant.configure(2) do |config|
         python-cheetah python-lxml doxygen libxi-dev python-sip \
         libqt4-opengl-dev libqwt-dev libfontconfig1-dev libxrender-dev \
         python-sip python-sip-dev python-gtk2 python-sphinx python-numpy python-cheetah \
-	python-comedilib libcomedi-dev libzmq-dev
+	python-comedilib libcomedi-dev libzmq-dev automake
 
     sudo apt-get install --no-install-recommends -y libuhd-dev
 
@@ -123,7 +123,7 @@ Vagrant.configure(2) do |config|
     sudo ldconfig
 
     cd ~/install
-    git clone git.osmocom.org/gr-osmosdr
+    git clone git://git.osmocom.org/gr-osmosdr
     mkdir -p gr-osmosdr/build
     cd gr-osmosdr/build
     cmake ..
