@@ -19,7 +19,7 @@ This repository provides setup script to get [tetra-listener](https://github.com
     - `vagrant up --provider virtualbox` if you want to try if your VirtualBox is better
   5. wait for install to be finished (depending on your machine performance can take up to few hours)
   6. `vagrant ssh` (to login into machine)
-  7. `tetra-listener` will be installed and ready to use in folder `/home/vagrant/tetra-listener/`
+  7. `tetra-listener` will be installed and ready to use in folder `/root/tetra-listener/`
 
 ## Access
 
